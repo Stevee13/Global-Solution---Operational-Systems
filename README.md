@@ -7,6 +7,16 @@
 
 ---
 
+## Integrantes:
+
+Arthur Gomes - RM 560771
+Luiz Silva - RM 560110
+Matheus Siroma - RM 560248
+Pedro Estevam - RM 560642
+Witalon Antonio - RM 559023
+
+---
+
 ## Vídeo de demonstração
 
 **Link da apresentação em vídeo:** https://youtu.be/GOpw1dINO7w
@@ -240,21 +250,5 @@ GS - CitizenTech/
 └── evidencias/
     └── .gitkeep                  # prints e arquivos de evidência vão aqui
 ```
-
----
-
-## Critérios de avaliação cobertos
-
-| Critério da disciplina | Script | Como é atendido |
-|---|---|---|
-| Configuração de rede e identidade | [01_rede_ad_dns.ps1](scripts/01_rede_ad_dns.ps1) | IP fixo, hostname, AD DS e DNS `vigia.local` |
-| Servidor Web (IIS) | [02_iis_ntfs_gpo.ps1](scripts/02_iis_ntfs_gpo.ps1) | Site `VigiaWeb` + Pool `VigiaAppPool` dedicado |
-| Permissões NTFS | [02_iis_ntfs_gpo.ps1](scripts/02_iis_ntfs_gpo.ps1) | Herança quebrada; só SYSTEM + Admins + IIS_IUSRS |
-| GPO e auditoria | [02_iis_ntfs_gpo.ps1](scripts/02_iis_ntfs_gpo.ps1) | `GPO_VIGIA_Seguranca` + `auditpol` em logon/objeto |
-| Tolerância a falhas | [03_tolerancia_falha.ps1](scripts/03_tolerancia_falha.ps1) | `sc.exe failure` + Rapid-Fail OFF + `AlwaysRunning` |
-| Monitoramento | [04_monitoramento_evidencias.ps1](scripts/04_monitoramento_evidencias.ps1) | DCS `VIGIA_Alertas` com CPU/RAM/Disco |
-| Evidências de rede | [04_monitoramento_evidencias.ps1](scripts/04_monitoramento_evidencias.ps1) | `evidencias_rede.txt` com os 3 comandos |
-
----
 
 **Entrega:** GS CitizenTech — FIAP 2026.2 · Projeto **VIGIA / Fire Intelligence** · Disciplina **Operating Systems**.
