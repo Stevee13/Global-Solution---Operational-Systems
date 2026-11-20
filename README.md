@@ -231,7 +231,7 @@ evidencias/
 ├── print_02_ntfs_acl.png         # Propriedades → Segurança da pasta C:\inetpub\vigia
 ├── print_03_gpo.png              # Group Policy Management com a GPO_VIGIA_Seguranca
 ├── print_04_perfmon.png          # Data Collector Set VIGIA_Alertas rodando
-├── print_05_falha.png      # VigiaAppPool antes da simulação de falha e Pool reiniciado automaticamente após o kill
+├── print_05_falhas.png      # VigiaAppPool antes da simulação de falha e Pool reiniciado automaticamente após o kill
 ```
 
 ---
