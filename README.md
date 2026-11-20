@@ -9,7 +9,7 @@
 
 ## Vídeo de demonstração
 
-**Link da apresentação em vídeo:** `<COLAR AQUI O LINK DO YOUTUBE/DRIVE>`
+**Link da apresentação em vídeo:** https://youtu.be/GOpw1dINO7w
 
 > O vídeo mostra, na VM Windows Server, a execução dos 4 scripts, o site publicado
 > no IIS, a simulação da falha do `VigiaAppPool` com recuperação automática e a
